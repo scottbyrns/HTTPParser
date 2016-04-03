@@ -28,8 +28,8 @@ let package = Package(
 	name: "HTTPParser",
 	dependencies: [
         .Package(url: "https://github.com/Zewo/CHTTPParser.git", majorVersion: 0, minor: 4),
-        .Package(url: "https://github.com/Zewo/Data.git", majorVersion: 0, minor: 4),
-        .Package(url: "https://github.com/Zewo/URI.git", majorVersion: 0, minor: 4),
-        .Package(url: "https://github.com/SwiftX/S4.git", majorVersion: 0, minor: 1),
+        .Package(url: "https://github.com/scottbyrns/Data.git", majorVersion: 0, minor: 4),
+        .Package(url: "https://github.com/scottbyrns/URI.git", majorVersion: 0, minor: 4),
+        .Package(url: "https://github.com/scottbyrns/S4.git", majorVersion: 0, minor: 1),
     ]
 )
